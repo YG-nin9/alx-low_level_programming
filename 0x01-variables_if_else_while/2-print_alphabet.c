@@ -18,6 +18,10 @@ int main(void)
 	{
 		printf("%c", alpha[count]);
 		count ++;
+		if (count == 0)
+		{
+			printf("\n");
+		}
 	}
 	return (0);
 }
