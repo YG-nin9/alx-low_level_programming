@@ -11,25 +11,16 @@
 int main(void)
 {
 	/* your code goes there */
-	int count = 0;
-	int alph = 0;
+	int count = 48;
 
-	for (; count < 11;)
+	while (count<= 102)
 	{
-		if (count == 10)
+		putchar(count);
+		if (count == 57)
 		{
-			for (;alph < 6;)
-			{
-				putchar(97 + alph);
-				alph++;
-		
-			}
+			count += 39;
 		}
-		else 
-		{
-			putchar(48 + count);
-			count++;
-		}
+		count++;
 	}
 	putchar('\n');
 	return (0);
