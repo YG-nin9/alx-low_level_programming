@@ -21,6 +21,7 @@ int main(void)
 			for (;alph < 7;)
 			{
 				putchar(97 + alph);
+				alph++;
 		
 			}
 		}
