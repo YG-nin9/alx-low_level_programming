@@ -18,14 +18,14 @@ int main(void)
 
 	for (; count < 26;)
 	{
-		if (count == || count == )
+		if (count == 4 || count == 16)
 		{
 			count++;
 		}
-		printf("%c", alpha[count]);
+		putchar(alpha[count]);
 		count++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
 
