@@ -11,7 +11,7 @@
 int main(void)
 {
 	/* your code goes there */
-	char alpha [26] = {a..z};
+	char alpha [26] = {'a'..'z'};
 	int count = 0;
 
 	for (;count < 26;)
