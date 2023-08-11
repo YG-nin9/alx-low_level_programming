@@ -25,7 +25,6 @@ int main(void)
 		printf("%c", alpha[count]);
 		count++;
 	}
-	printf("\n");
 	for (; COUNT < 26;)
         {
                 printf("%c", ALPHA[COUNT]);
