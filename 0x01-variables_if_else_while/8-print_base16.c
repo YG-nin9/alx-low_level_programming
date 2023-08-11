@@ -16,7 +16,7 @@ int main(void)
 
 	for (; count < 10;)
 	{
-		if (count == 10)
+		if (count == 11)
 		{
 			for (;alph < 7;)
 			{
