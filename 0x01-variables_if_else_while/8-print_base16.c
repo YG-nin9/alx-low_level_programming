@@ -13,7 +13,7 @@ int main(void)
 	/* your code goes there */
 	int count = 48;
 
-	while (count<= 102)
+	while (count <= 102)
 	{
 		putchar(count);
 		if (count == 57)
