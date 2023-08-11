@@ -26,10 +26,9 @@ int main(void)
 		}
 		else 
 		{
-			break;
+			putchar(48 + count);
+			count++;
 		}
-		putchar(48 + count);
-		count++;
 	}
 	putchar('\n');
 	return (0);
