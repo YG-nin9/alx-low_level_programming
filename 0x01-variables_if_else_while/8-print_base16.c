@@ -14,11 +14,11 @@ int main(void)
 	int count = 0;
 	int alph = 0;
 
-	for (; count < 10;)
+	for (; count < 11;)
 	{
-		if (count == 11)
+		if (count == 10)
 		{
-			for (;alph < 7;)
+			for (;alph < 6;)
 			{
 				putchar(97 + alph);
 				alph++;
