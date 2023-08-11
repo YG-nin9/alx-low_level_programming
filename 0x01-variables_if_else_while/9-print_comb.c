@@ -18,7 +18,7 @@ int main(void)
 		putchar(count + 48);
 		if (count != 9)
 		{
-			putchar('.');
+			putchar(',');
 			putchar(' ');
 		}
 		count++;
