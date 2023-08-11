@@ -26,11 +26,11 @@ int main(void)
 		count++;
 	}
 	for (; COUNT < 26;)
-        {
-                printf("%c", ALPHA[COUNT]);
-                COUNT++;
-        }
-        printf("\n");
+	{
+		printf("%c", ALPHA[COUNT]);
+		COUNT++;
+	}
+	printf("\n");
 	return (0);
 }
 
