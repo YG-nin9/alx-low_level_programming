@@ -18,7 +18,7 @@ int main(void)
 	{
 		printf("%c", alpha[count]);
 		count ++;
-		if (count == 0)
+		if (count == 25)
 		{
 			printf("\n");
 		}
