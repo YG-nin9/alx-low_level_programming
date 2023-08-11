@@ -15,7 +15,7 @@ int main(void)
 
 	for (; count < 10;)
 	{
-		putchar(48+count);
+		putchar(48 + count);
 		count++;
 	}
 	putchar('\n');
