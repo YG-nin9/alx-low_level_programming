@@ -11,12 +11,12 @@
 int main(void)
 {
 	/* your code goes there */
-	char alpha = [a..z];
+	char alpha [26] = {a..z};
 	int count = 0;
 
-	for (;count != 25;)
+	for (;count < 26;)
 	{
-		printf("%c");
+		printf("%c", alpha[count]);
 		count ++;
 	}
 	return (0);
