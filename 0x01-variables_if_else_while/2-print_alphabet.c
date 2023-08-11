@@ -18,11 +18,8 @@ int main(void)
 	{
 		printf("%c", alpha[count]);
 		count ++;
-		if (count == 25)
-		{
-			printf("\n");
-		}
 	}
+	printf("\n");
 	return (0);
 }
 
