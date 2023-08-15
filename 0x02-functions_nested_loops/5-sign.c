@@ -8,7 +8,7 @@
 *@n: the input
 *Return: 1 if out is lowercase, otherwise 0
 */
-int print_sign(int n);
+int print_sign(int n)
 {
 	/* your code goes there */
 	if (n > 0)
