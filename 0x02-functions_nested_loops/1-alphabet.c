@@ -20,6 +20,5 @@ void alphapet(void)
 		putchar(out);
 	}
 	putchar('\n');
-	return ();
 }
 
