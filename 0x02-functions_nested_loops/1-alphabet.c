@@ -20,6 +20,6 @@ void alphapet(void)
 		putchar(out);
 	}
 	putchar('\n');
-	return (0);
+	return ();
 }
 
