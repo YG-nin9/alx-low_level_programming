@@ -8,7 +8,7 @@
 *@out: the input
 *Return: 1 if out is lowercase, otherwise 0
 */
-int _islower (int out)
+int _islower(int out)
 {
 	/* your code goes there */
 	if (out >= 'a' && out <= 'z')
