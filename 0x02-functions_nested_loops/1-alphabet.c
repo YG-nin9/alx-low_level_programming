@@ -13,13 +13,13 @@ void alphapet(void)
 {
 	/* your code goes there */
 	char out;
-	int count
+	int count;
 
 	for (out = 'a'; out <= 'z'; count++)
 	{
-		_putchar(out);
+		putchar(out);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
 
