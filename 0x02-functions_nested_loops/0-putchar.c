@@ -2,6 +2,7 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
 *main - Entry point
@@ -11,7 +12,14 @@
 int main(void)
 {
 	/* your code goes there */
-	printf("_putchar\n");
+	char out[] = "_putchar";
+	int count = 0;
+
+	for (; count < 8; count++)
+	{
+		_putchar(out[count]);
+	}
+	putchar'\n';
 	return (0);
 }
 
