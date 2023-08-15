@@ -26,10 +26,12 @@ void print_alphabet(void)
 void print_alphabet_x10(void)
 	{
 	char out[] = "abcdefghijklmnopqrstuvwxyz";
-	
-	for(int re = 0;re < 10; re++)
+	int re =0;
+	int count = 0;
+
+	for(;re < 10; re++)
 	 {
-		 for (int count = 0; count < 27; count++)
+		 for (; count < 27; count++)
 		 {
 			 putchar(out[count]);
 		 }
