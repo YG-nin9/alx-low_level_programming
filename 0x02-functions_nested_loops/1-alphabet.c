@@ -12,14 +12,7 @@
 int main(void)
 {
 	/* your code goes there */
-	char out[] = "abcdefghijklmnopqrstuvwxyz";
-	int count = 0;
-
-	for (; count < 27; count++)
-	{
-		putchar(out[count]);
-	}
-	printf("\n");
+	print_alphabet();
 	return (0);
 }
 
