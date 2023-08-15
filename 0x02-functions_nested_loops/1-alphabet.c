@@ -9,11 +9,9 @@
 *
 *Return: Always 0 (Success)
 */
-
 /**
-*print_alphabet - print all alphabet in lowercase
+*Print_alphabet - print all alphabet in lowercase
 */
-
 void print_alphabet(void)
 {
 	/* your code goes there */
