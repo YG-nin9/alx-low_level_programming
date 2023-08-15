@@ -6,7 +6,7 @@
 /**
 *_islower - checks the lower chars
 */
-int _islower(int out);
+int _islower(int out)
 {
 	/* your code goes there */
 	int out;
