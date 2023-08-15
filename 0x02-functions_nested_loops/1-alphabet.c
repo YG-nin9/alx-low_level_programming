@@ -9,7 +9,7 @@
 *
 *Return: Always 0 (Success)
 */
-void alphapet(void)
+void print_alphapet(void)
 {
 	/* your code goes there */
 	char out;
