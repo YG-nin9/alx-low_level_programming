@@ -9,8 +9,6 @@
 int _islower(int out)
 {
 	/* your code goes there */
-	int out;
-
 	if(out >= 'a' && out <= 'z')
 	{
 		return(1);
