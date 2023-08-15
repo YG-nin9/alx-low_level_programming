@@ -6,10 +6,10 @@
 /**
 *_islower - checks the lower chars
 */
-int _islower(int c);
+int _islower(int out);
 {
 	/* your code goes there */
-	char out;
+	int out;
 
 	if(out >= 'a' && out <= 'z')
 	{
