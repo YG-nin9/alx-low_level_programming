@@ -25,7 +25,7 @@ void print_alphabet(void)
 
 void print_alphabet_x10(void)
 	{
-	char out[] = "abcdefghijklmnopqrstuvwxyz"
+	char out[] = "abcdefghijklmnopqrstuvwxyz";
 	
 	for(int re = 0;re < 10; re++)
 	 {
