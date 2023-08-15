@@ -17,9 +17,9 @@ int main(void)
 
 	for (; count < 8; count++)
 	{
-		putchar(out[count]);
+		_putchar(out[count]);
 	}
-	printf("\n");
+	_putchar("\n");
 	return (0);
 }
 
