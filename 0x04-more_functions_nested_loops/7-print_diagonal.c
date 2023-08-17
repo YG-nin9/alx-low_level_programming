@@ -1,20 +1,19 @@
-#include <stdlib.h>
-/* more headers goes there */
-#include <stdio.h>
 #include "main.h"
+
 /**
-*print_diagonal - print slashes
-*@n: the number of slashes
-*Return: void
-*/
+ * print_diagonal - draws a diagonal line on the terminal
+ * @n: number of times the character \ should be printed
+ */
+
 void print_diagonal(int n)
 {
-	/* your code goes there */
-	int i;
-	int j;
-
-	if (n > 0)
+	if (n <= 0)
 	{
+		_putchar('\n');
+	} else
+	{
+		int i, j;
+
 		for (i = 0; i < n; i++)
 		{
 			for (j = 0; j < n; j++)
@@ -24,12 +23,8 @@ void print_diagonal(int n)
 				else if (j < i)
 					_putchar(' ');
 			}
+			_putchar('\n');
 		}
-		_putchar ('\n');
-	}
-	else
-	{
-		_putchar ('\n');
 	}
 }
 
