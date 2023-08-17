@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <time.h>
 /* more headers goes there */
 #include <stdio.h>
 #include "main.h"
@@ -11,13 +10,13 @@
 int _isupper(int c)
 {
 	/* your code goes there */
-	if ((test >= 'A' && test <= 'Z'))
+	if ((c >= 'A' && c <= 'Z'))
 	{
 		_putchar ('1');
 	}
 	else
 	{
-		_putcha ('0');
+		_putchar ('0');
 	}
 }
 
