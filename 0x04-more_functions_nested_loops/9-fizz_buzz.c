@@ -1,18 +1,16 @@
 #include <stdio.h>
 /**
  * main - jus a programming test
- * Return: out
+ * Return: 0
  */
 
 int main(void)
 {
 	int num;
-	int zero;
 
 	for (num = 1; num <= 100; num++)
 	{
-		zero = 0;
-		if ((num % 3 == zero) && (num % 5 == zero))
+		if ((num % 3 == 0) && (num % 5 == 0))
 		{
 			printf("FizzBuzz ");
 		}
