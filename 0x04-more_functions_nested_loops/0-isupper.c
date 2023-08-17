@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*int _isupper - checks the lower chars
+*_isupper - checks the lower chars
 *@c: the input
 *Return: 1 if out is uppercase letter, otherwise 0
 */
