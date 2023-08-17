@@ -7,9 +7,11 @@
 int main(void)
 {
 	int num;
+	int zero;
 
 	for (num = 1; num <= 100; num++)
 	{
+		zero = 0;
 		if ((num % 3 == zero) && (num % 5 == zero))
 		{
 			printf("FizzBuzz ");
