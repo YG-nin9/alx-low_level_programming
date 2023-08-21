@@ -10,14 +10,19 @@
 void print_rev(char *s)
 {
 	/* your code goes there */
+	int count;
+	int reve;
 
 	while (*s != '\0')
 	{
 		s++;
+		count++;
 	}
-	for (; *s > 0;)
+	s--;
+	for (reve = count; reve > 0; reve--)
 	{
-		_putchar(*s--);
+		_putchar(*s);
+		s--;
 	}
 	_putchar('\n');
 }
