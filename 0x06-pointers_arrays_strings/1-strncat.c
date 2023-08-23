@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - append the src to dest
+ * _strncat - append the src to dest by the needed n elements
  * @src: input
  * @dest: input
  * @n: number of appender
