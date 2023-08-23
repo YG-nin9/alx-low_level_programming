@@ -9,7 +9,7 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int x; /* counter*/
-	
+
 	x = 0;
 	while (x < n && src[x] != '\0')
 	{
