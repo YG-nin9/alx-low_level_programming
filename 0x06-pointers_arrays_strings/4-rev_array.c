@@ -3,22 +3,19 @@
  * reverse_array - reverse any array to confuse people
  * @a: input
  * @n: number of elemnts in the array
- * Return: the reversed array
+ * Return: void
  */
 void reverse_array(int *a, int n)
 {
-	int x; /* counter*/
-	int holder[n];
+	int x;
 	int y;
 
-	y = 0;
-	x = n - 1;
-	while (x != 0)
+	for (x = 0; x < n--; x++)
 	{
-		holder[y] = a[x];
-		y++;
-		x--;
+		y = a[x];
+		a[x] = a[n];
+		a[x] = y;
 	}
-	return (holder);
+
 }
 
