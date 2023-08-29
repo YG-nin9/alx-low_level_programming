@@ -4,7 +4,7 @@
  * _strspn - counts
  * @accept: input
  * @s: input
- * Return: the n 
+ * Return: the n
  */
 unsigned int _strspn(char *s, char *accept)
 {
