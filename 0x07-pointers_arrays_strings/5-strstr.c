@@ -1,25 +1,27 @@
 #include "main.h"
-#include <stddef.h>
 /**
- * *_strstr - locates the needle
- * @needle: needle
- * @haystack: hays
- * Return: needle
+ * _strstr - Entry point
+ * @haystack: input
+ * @needle: input
+ * Return: Always 0 (Success)
  */
 char *_strstr(char *haystack, char *needle)
 {
-		char *t = haystack;
-		char *d = needle;
+	for (; *haystack != '\0'; haystack++)
+	{
+		char *l = haystack;
+		char *p = needle;
 
-		while ((*t == *d) && (*d != '\0'))
+		while (*l == *p && *p != '\0')
 		{
-			t++;
-			d++;
+			l++;
+			p++;
 		}
-		if (*d == '\0')
-		{
+
+		if (*p == '\0')
 			return (haystack);
-		}
+	}
+
 	return (0);
 }
 
