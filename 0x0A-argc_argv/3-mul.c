@@ -9,22 +9,17 @@
  */
 int main(int argc, char *argv[])
 {
-	int n;
 	int x;
 	int y;
 
-	n = 3;
-	x = atoi(argv[1]);
-	y = atoi(argv[2]);
-	if (n == argc)
-	{
-		printf("%d\n", x * y);
-		return  (0);
-	}
-	else
+	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+	x = atoi(argv[1]);
+        y = atoi(argv[2]);
+	printf("%d\n", x * y);
+	return (0);
 }
 
