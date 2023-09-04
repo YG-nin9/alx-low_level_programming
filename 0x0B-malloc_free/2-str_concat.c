@@ -35,5 +35,6 @@ char *str_concat(char *s1, char *s2)
 			{arr[m] = s2[n];
 			n++; }
 	return (arr);
+	free(arr);
 }
 
