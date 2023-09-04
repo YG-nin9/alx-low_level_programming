@@ -14,8 +14,6 @@ char *str_concat(char *s1, char *s2)
 	len = 0;
 	x = 0;
 	n = 0;
-	if (s1 == NULL && s2 == NULL)
-		return ("");
 	if (s1 == NULL && s2 != NULL)
 		s1 = "";
 	if (s2 == NULL && s1 != NULL)
@@ -26,6 +24,8 @@ char *str_concat(char *s1, char *s2)
 		x++;
 	y = x + len + 1;
 	arr = malloc(sizeof(char) * y);
+	if (s1 == NULL && s2 == NULL)
+		arr = "";
 	if (arr == NULL)
 		return (NULL);
 	for (m = 0; m <= y; m++)
