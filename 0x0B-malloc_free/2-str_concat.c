@@ -22,7 +22,6 @@ char *str_concat(char *s1, char *s2)
 		return (s1);
 	while (s1[len] != '\0' && (s1 != NULL))
 		len++;
-	len--;
 	while (s2[x] != '\0' && (s2 != NULL))
 		x++;
 	y = x + len + 1;
@@ -30,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 	if (arr == NULL)
 		return (NULL);
 	for (m = 0; m <= y; m++)
-		if (m <= len)
+		if (m < len)
 			arr[m] = s1[m];
 		else
 			{arr[m] = s2[n];
