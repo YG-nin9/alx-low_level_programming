@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * print_numbers - print the strings
+ * print_strings - print the strings
  * @n: number of the args to be printed
  * @separator: printed between the strings
  * @...: indicates that function take variable num of args
@@ -18,7 +18,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (x = 0; x < n; x++)
 	{
 		str = va_arg(ptr, char*);
-		if (ptr == NULL)
+		if (str == NULL)
 		{
 			printf("(nil)");
 		}
