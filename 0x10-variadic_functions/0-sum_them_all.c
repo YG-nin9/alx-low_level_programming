@@ -11,17 +11,17 @@ int sum_them_all(const unsigned int n, ...)
 	va_list num;
 	unsigned int x, sum;
 
-	if (n == 0)
-	{
-		exist(0);
-	}
 	sum = 0;
-	va_start(num, n);
-	for (x = 0; x < n; x++)
+	if (n != 0)
 	{
-		sum += va_arg(num, const unsigned int);
+		va_start(num, n);
+        for (x = 0; x < n; x++)
+        {
+                sum += va_arg(num, const unsigned int);
+        }
+        va_end(num);
+        return (sum);
 	}
-	va_end(num);
-	return (sum);
+	return (0);
 }
 
