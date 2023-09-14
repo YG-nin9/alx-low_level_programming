@@ -3,6 +3,7 @@
 /**
  * sum_them_all - sums all the inputed args
  * @n: number of the args to be summed
+ * @...: indicates that function take variable num of args
  * Return: the sum of the args
  */
 int sum_them_all(const unsigned int n, ...)
