@@ -11,7 +11,7 @@ void print_binary(unsigned long int n)
 	int bits, rev_index = 0;
 	unsigned long int MSB;
 
-	for (bits = 63; bits != 0; bits--)
+	for (bits = 63; bits >= 0; bits--)
 	{
 		MSB = n >> bits;
 		if (MSB & 1)
