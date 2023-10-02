@@ -4,7 +4,7 @@
  * create_file - create the textfile
  * @filename: pointer to the filename
  * @text_content: pointer to the text to be put into the file
- * Return:
+ * Return: 1 on success -1 on fail
  */
 create_file(const char *filename, char *text_content)
 {
